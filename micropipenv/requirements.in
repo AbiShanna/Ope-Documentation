@@ -1,0 +1,26 @@
+--index-url https://pypi.org/simple
+#
+# Default dependencies
+#
+thamos
+micropipenv[toml]
+nbclient
+jsonschema
+rise
+bash-kernel
+jupyter-book
+ghp-import
+jupytext
+nbgitpuller
+widgetsnbextension
+ipywidgets
+matplotlib
+anaconda
+pandas
+plotly
+plotly-express
+jupyterlab-myst
+jupyterlab-spellchecker
+jupyter-contrib-nbextensions
+jupyterthemes
+nbstripout
