@@ -1,9 +1,9 @@
 # &nbsp; Adding new python library
 
-The s2i images uses [micropipenv](https://github.com/thoth-station/micropipenv) tool to install the python libraries.
+The s2i images uses [micropipenv](https://github.com/thoth-station/micropipenv) a pip wrapper tool to install the python libraries.
 
 ### To generate requirements.txt from scratch:
-
+<br/>In your local workstation that has docker installed, 
 1. Docker run into the base s2i image:
 <br/> &nbsp; &nbsp;&nbsp; *docker run -it quay.io/thoth-station/s2i-minimal-py38-notebook:v0.3.0 /bin/bash*
 2. In a empty folder, place your packages.txt file with list of libraries to install. 
@@ -31,3 +31,4 @@ The s2i images uses [micropipenv](https://github.com/thoth-station/micropipenv) 
 
 5. Replace this requirements.txt in the s2i container repo.
 <br/>
+<br/> For more information and examples, see this [blog post](https://dev.to/fridex/micropipenv-the-one-installation-tool-that-covers-pipenv-poetry-and-pip-tools-3ee7).
